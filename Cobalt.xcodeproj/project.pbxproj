@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62E4FEF87D4C9AF7011B2C95 /* Pods_Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3E0DB884C6E41851F43464 /* Pods_Cobalt.framework */; };
+		959BEC3020504AF2007459DD /* ViewControllerLitterature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC2F20504AF2007459DD /* ViewControllerLitterature.swift */; };
+		959BEC3220505272007459DD /* PFBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC3120505272007459DD /* PFBook.swift */; };
+		959BEC3420506730007459DD /* CollectionViewCellBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC3320506730007459DD /* CollectionViewCellBook.swift */; };
+		959BEC36205071B9007459DD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC35205071B9007459DD /* Constant.swift */; };
+		959BEC3820507E2E007459DD /* ViewControllerFolioReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC3720507E2E007459DD /* ViewControllerFolioReader.swift */; };
+		959BEC3A20508972007459DD /* TableViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC3920508972007459DD /* TableViewControllerLogin.swift */; };
+		959BEC3C20508B56007459DD /* TableViewControllerSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC3B20508B56007459DD /* TableViewControllerSignUp.swift */; };
+		959BEC3E20508F77007459DD /* CBViewControllerProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959BEC3D20508F77007459DD /* CBViewControllerProfil.swift */; };
 		95B9561120481854002B2BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B9561020481854002B2BC9 /* AppDelegate.swift */; };
 		95B9561320481854002B2BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B9561220481854002B2BC9 /* ViewController.swift */; };
 		95B9561620481854002B2BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B9561420481854002B2BC9 /* Main.storyboard */; };
 		95B9561820481854002B2BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B9561720481854002B2BC9 /* Assets.xcassets */; };
 		95B9561B20481854002B2BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B9561920481854002B2BC9 /* LaunchScreen.storyboard */; };
+		95E058C220B3181D00D296AD /* CBViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E058C120B3181D00D296AD /* CBViewControllerLogin.swift */; };
+		95E058C520B31B4100D296AD /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E058C420B31B4100D296AD /* GradientView.swift */; };
+		95E058C720B31F9200D296AD /* CBViewControllerSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E058C620B31F9200D296AD /* CBViewControllerSignUp.swift */; };
+		95E058C920B3210E00D296AD /* CBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E058C820B3210E00D296AD /* CBExtensions.swift */; };
+		95E058CB20B3265800D296AD /* CBViewControllerSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E058CA20B3265800D296AD /* CBViewControllerSignIn.swift */; };
+		95E058CD20B32B2400D296AD /* CBTableViewControllerProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E058CC20B32B2400D296AD /* CBTableViewControllerProfil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95B9560D20481854002B2BC9 /* Cobalt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cobalt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEEF1D4B147F6B20D593B35 /* Pods-Cobalt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cobalt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cobalt/Pods-Cobalt.release.xcconfig"; sourceTree = "<group>"; };
+		959BEC2F20504AF2007459DD /* ViewControllerLitterature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLitterature.swift; sourceTree = "<group>"; };
+		959BEC3120505272007459DD /* PFBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFBook.swift; sourceTree = "<group>"; };
+		959BEC3320506730007459DD /* CollectionViewCellBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellBook.swift; sourceTree = "<group>"; };
+		959BEC35205071B9007459DD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		959BEC3720507E2E007459DD /* ViewControllerFolioReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFolioReader.swift; sourceTree = "<group>"; };
+		959BEC3920508972007459DD /* TableViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerLogin.swift; sourceTree = "<group>"; };
+		959BEC3B20508B56007459DD /* TableViewControllerSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerSignUp.swift; sourceTree = "<group>"; };
+		959BEC3D20508F77007459DD /* CBViewControllerProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBViewControllerProfil.swift; sourceTree = "<group>"; };
+		95B9560D20481854002B2BC9 /* AfricaBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfricaBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B9561020481854002B2BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B9561220481854002B2BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95B9561520481854002B2BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95B9561720481854002B2BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B9561A20481854002B2BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B9561C20481854002B2BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E058C120B3181D00D296AD /* CBViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBViewControllerLogin.swift; sourceTree = "<group>"; };
+		95E058C420B31B4100D296AD /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		95E058C620B31F9200D296AD /* CBViewControllerSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBViewControllerSignUp.swift; sourceTree = "<group>"; };
+		95E058C820B3210E00D296AD /* CBExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBExtensions.swift; sourceTree = "<group>"; };
+		95E058CA20B3265800D296AD /* CBViewControllerSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBViewControllerSignIn.swift; sourceTree = "<group>"; };
+		95E058CC20B32B2400D296AD /* CBTableViewControllerProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTableViewControllerProfil.swift; sourceTree = "<group>"; };
+		D5A1A6C0C48B4EA698D36CE1 /* Pods-Cobalt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cobalt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cobalt/Pods-Cobalt.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3E0DB884C6E41851F43464 /* Pods_Cobalt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cobalt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +61,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E4FEF87D4C9AF7011B2C95 /* Pods_Cobalt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19E0BAD46BD4FC11BECB3C09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E0DB884C6E41851F43464 /* Pods_Cobalt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		333F4B40C810A63C1CE11611 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1A6C0C48B4EA698D36CE1 /* Pods-Cobalt.debug.xcconfig */,
+				6DEEF1D4B147F6B20D593B35 /* Pods-Cobalt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		959BEC2C205049D7007459DD /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				959BEC3120505272007459DD /* PFBook.swift */,
+				959BEC35205071B9007459DD /* Constant.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		959BEC2D205049D7007459DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				959BEC2F20504AF2007459DD /* ViewControllerLitterature.swift */,
+				959BEC3720507E2E007459DD /* ViewControllerFolioReader.swift */,
+				959BEC3920508972007459DD /* TableViewControllerLogin.swift */,
+				959BEC3B20508B56007459DD /* TableViewControllerSignUp.swift */,
+				959BEC3D20508F77007459DD /* CBViewControllerProfil.swift */,
+				95E058C120B3181D00D296AD /* CBViewControllerLogin.swift */,
+				95E058C620B31F9200D296AD /* CBViewControllerSignUp.swift */,
+				95E058CA20B3265800D296AD /* CBViewControllerSignIn.swift */,
+				95E058CC20B32B2400D296AD /* CBTableViewControllerProfil.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		959BEC2E205049D7007459DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				959BEC3320506730007459DD /* CollectionViewCellBook.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		95B9560420481854002B2BC9 = {
 			isa = PBXGroup;
 			children = (
 				95B9560F20481854002B2BC9 /* Cobalt */,
 				95B9560E20481854002B2BC9 /* Products */,
+				333F4B40C810A63C1CE11611 /* Pods */,
+				19E0BAD46BD4FC11BECB3C09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		95B9560E20481854002B2BC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95B9560D20481854002B2BC9 /* Cobalt.app */,
+				95B9560D20481854002B2BC9 /* AfricaBooks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +139,27 @@
 		95B9560F20481854002B2BC9 /* Cobalt */ = {
 			isa = PBXGroup;
 			children = (
+				95E058C320B31B4100D296AD /* Lib */,
+				959BEC2D205049D7007459DD /* Controllers */,
+				959BEC2C205049D7007459DD /* Modals */,
+				959BEC2E205049D7007459DD /* Views */,
 				95B9561020481854002B2BC9 /* AppDelegate.swift */,
 				95B9561220481854002B2BC9 /* ViewController.swift */,
 				95B9561420481854002B2BC9 /* Main.storyboard */,
 				95B9561720481854002B2BC9 /* Assets.xcassets */,
 				95B9561920481854002B2BC9 /* LaunchScreen.storyboard */,
 				95B9561C20481854002B2BC9 /* Info.plist */,
+				95E058C820B3210E00D296AD /* CBExtensions.swift */,
 			);
 			path = Cobalt;
+			sourceTree = "<group>";
+		};
+		95E058C320B31B4100D296AD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				95E058C420B31B4100D296AD /* GradientView.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95B9561F20481854002B2BC9 /* Build configuration list for PBXNativeTarget "Cobalt" */;
 			buildPhases = (
+				3AABDF2373F3E8A1918DF8AE /* [CP] Check Pods Manifest.lock */,
 				95B9560920481854002B2BC9 /* Sources */,
 				95B9560A20481854002B2BC9 /* Frameworks */,
 				95B9560B20481854002B2BC9 /* Resources */,
+				0493EA01759C995D88F58E0B /* [CP] Embed Pods Frameworks */,
+				A48EE878EF5BB84CB7F17EFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,7 +182,7 @@
 			);
 			name = Cobalt;
 			productName = Cobalt;
-			productReference = 95B9560D20481854002B2BC9 /* Cobalt.app */;
+			productReference = 95B9560D20481854002B2BC9 /* AfricaBooks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -90,6 +191,7 @@
 		95B9560520481854002B2BC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CB;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = ingouackaz;
@@ -131,13 +233,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0493EA01759C995D88F58E0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cobalt/Pods-Cobalt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FolioReaderKit/FolioReaderKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
+				"${BUILT_PRODUCTS_DIR}/JBKenBurnsView/JBKenBurnsView.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQWebViewController/JSQWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/KTCenterFlowLayout/KTCenterFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
+				"${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework",
+				"${BUILT_PRODUCTS_DIR}/MenuItemKit/MenuItemKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseFacebookUtilsV4/ParseFacebookUtilsV4.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FolioReaderKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JBKenBurnsView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KTCenterFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZFormSheetPresentationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MenuItemKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseFacebookUtilsV4.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDragableModalTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cobalt/Pods-Cobalt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AABDF2373F3E8A1918DF8AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cobalt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A48EE878EF5BB84CB7F17EFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cobalt/Pods-Cobalt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95B9560920481854002B2BC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959BEC3220505272007459DD /* PFBook.swift in Sources */,
+				95E058C720B31F9200D296AD /* CBViewControllerSignUp.swift in Sources */,
+				95E058CB20B3265800D296AD /* CBViewControllerSignIn.swift in Sources */,
+				959BEC3A20508972007459DD /* TableViewControllerLogin.swift in Sources */,
+				95E058C520B31B4100D296AD /* GradientView.swift in Sources */,
+				95E058C920B3210E00D296AD /* CBExtensions.swift in Sources */,
+				959BEC3E20508F77007459DD /* CBViewControllerProfil.swift in Sources */,
+				959BEC3420506730007459DD /* CollectionViewCellBook.swift in Sources */,
+				959BEC3C20508B56007459DD /* TableViewControllerSignUp.swift in Sources */,
+				959BEC3820507E2E007459DD /* ViewControllerFolioReader.swift in Sources */,
 				95B9561320481854002B2BC9 /* ViewController.swift in Sources */,
+				959BEC3020504AF2007459DD /* ViewControllerLitterature.swift in Sources */,
+				95E058CD20B32B2400D296AD /* CBTableViewControllerProfil.swift in Sources */,
 				95B9561120481854002B2BC9 /* AppDelegate.swift in Sources */,
+				95E058C220B3181D00D296AD /* CBViewControllerLogin.swift in Sources */,
+				959BEC36205071B9007459DD /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +478,16 @@
 		};
 		95B9562020481854002B2BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A1A6C0C48B4EA698D36CE1 /* Pods-Cobalt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SGXTW3RJA2;
 				INFOPLIST_FILE = Cobalt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zerog.Cobalt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AfricaBooks;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +495,16 @@
 		};
 		95B9562120481854002B2BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEEF1D4B147F6B20D593B35 /* Pods-Cobalt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SGXTW3RJA2;
 				INFOPLIST_FILE = Cobalt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zerog.Cobalt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AfricaBooks;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
